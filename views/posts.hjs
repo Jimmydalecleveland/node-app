@@ -1,0 +1,6 @@
+<h1>{{title}}</h1>
+<ul>
+  {{#posts}}
+    <li>{{text}} <strong>User ID: {{user_id}}</strong></li>
+  {{/posts}}
+</ul>
